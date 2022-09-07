@@ -9,7 +9,7 @@
 html, body
 {
     height: 100vh;
-    width: 97vw;
+    width: 96vw;
     background-color: black;
     background-image: url(../imagens/fundo-madeira.jpg);
     background-size: cover;
@@ -40,6 +40,7 @@ iframe
     transform: translate(-50%, -50%);
     height: 470px;
     width: 267px;
+    overflow-y: hidden;
 }
 section#redes-sociais
 {
